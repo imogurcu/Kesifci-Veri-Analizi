@@ -1,8 +1,5 @@
 
-
-
-
-# Korelasyonlarýn Incelenmesi
+# Korelasyonlarin Incelenmesi
 
 ## Scatter Plot 
 
@@ -25,7 +22,7 @@ ggplot(df, aes(Sepal.Length, Sepal.Width, color = Species, shape = Species))+
   geom_point(size = 6,
              alpha = 0.6)
 
-## Surekli degiskenin boyutunu degiskene ekleyip daha farklý cýkarýmlara ulasýyoruz.
+## Surekli degiskenin boyutunu degiskene ekleyip daha farklÃ½ cÃ½karÃ½mlara ulasÃ½yoruz.
 
 ggplot(df, aes(Sepal.Length, Sepal.Width, color = Petal.Length, size = Petal.Length))+
   geom_point(alpha = 0.6)
